@@ -1,0 +1,86 @@
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="mb-1">
+              &copy;2024 Copyright hykmlys. All Rights Reserved
+            </p>
+            <!-- <div class="credits">
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div> -->
+          </div>
+          <div class="col-sm-6 social text-md-right">
+            <a href="https://www.linkedin.com/in/haykal-ilyasa-41224a290/" target="_blank"><span class="icofont-linkedin"></span></a>
+            <a href="https://www.instagram.com/hykalilys/?hl=en" target="_blank"><span class="icofont-instagram"></span></a>
+            <a href="https://dribbble.com/Cosmichicken" target="_blank"><span class="icofont-dribbble"></span></a>
+            <a href="https://www.behance.net/haykalilyasa" target="_blank"><span class="icofont-behance"></span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+
+    <!-- SCROLL TO TOP  -->
+      <!-- Tombol Scroll to Top -->
+      <button
+        onclick="topFunction()"
+        class="scrollbtn material-icons"
+        id="scrollTopBtn"
+        title="Go to top"
+      >
+        arrow_upward
+      
+      </button>
+
+      
+
+      <script>
+        // Scroll to Top Button
+        var scrollToTopBtn = document.getElementById("scrollTopBtn");
+
+        // Tampilkan tombol ketika pengguna menggulir ke bawah
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 600 ||
+            document.documentElement.scrollTop > 600
+          ) {
+            scrollToTopBtn.style.display = "block";
+          } else {
+            scrollToTopBtn.style.display = "none";
+          }
+        }
+
+
+        // Ketika tombol diklik, kembali ke atas halaman
+        function topFunction() {
+          // document.body.scrollTop = 0; // Untuk Safari
+          // document.documentElement.scrollTop = 0; // Untuk Chrome, Firefox, IE, dan Opera
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Menambahkan efek smooth
+         });
+        }
+      </script>
+      <!-- SCROLL TO TOP END -->
+
+    <!-- Vendor JS Files -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery-migrate.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/easing/easing.min.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
