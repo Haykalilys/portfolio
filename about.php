@@ -125,7 +125,7 @@
           // Menampilkan data profil
           if (mysqli_num_rows($result) > 0) {
             $profile = mysqli_fetch_assoc($result);
-            echo '<p><img src="' . htmlspecialchars($profile['image']) . '" alt="Image" class="img-fluid" /></p>';
+            // echo '<p><img src="' . htmlspecialchars($profile['image']) . '" alt="Image" class="img-fluid" /></p>';
             echo '<p>' . htmlspecialchars($profile['description']) . '</p>';
             echo '<p>' . htmlspecialchars($profile['additional_info']) . '</p>';
             echo '<p><a href="' . htmlspecialchars($profile['cv_link']) . '" target="_blank" class="readmore">Download my CV</a></p>';
