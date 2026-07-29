@@ -116,7 +116,7 @@
         <div class="col-md-7 mb-5 mb-md-0" data-aos="fade-up">
           <?php
           //koneksi
-          include "database/koneksi.php";
+          // include "database/koneksi.php";
 
           // Query untuk mengambil data profil
           // $query = "SELECT * FROM profiles LIMIT 1"; // Ambil satu profil
