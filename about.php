@@ -119,8 +119,8 @@
           include "database/koneksi.php";
 
           // Query untuk mengambil data profil
-          $query = "SELECT * FROM profiles LIMIT 1"; // Ambil satu profil
-          $result = mysqli_query($conn, $query);
+          // $query = "SELECT * FROM profiles LIMIT 1"; // Ambil satu profil
+          // $result = mysqli_query($conn, $query);
 
           // Menampilkan data profil
           if (mysqli_num_rows($result) > 0) {
